@@ -20,12 +20,111 @@ Smart ID Verification System is an AI-powered web application designed to verify
 - SQLite
 - HTML/CSS
 
-## System Workflow
-1. User uploads or captures a facial image.
+## System Architecture
+### Frontend
+- Web interface using HTML/CSS
+- Camera integration for image capture
+
+### Backend
+- Flask server
+- Handles model execution and decision logic
+
+### Pipeline Flow
+1. User captures or uploads a facial image.
 2. The system performs liveness detection.
-3. If the face is verified as real, facial matching is executed.
-4. The captured face is compared with registered users.
-5. Access is granted if a match is found.
+3. If the face is real, face matching is performed.
+4. The captured face is compared against stored identities.
+5. Access is granted if a valid match is found.
 6. Verification results are stored for auditing purposes.
 
+## Main Functions
+
+### predict_liveness()
+Determines whether the detected face belongs to a live person or a spoof attempt.
+
+### face_similarity()
+Calculates facial similarity between the captured image and stored records.
+
+### smart_id_pass()
+Executes the complete verification workflow and returns the final authentication decision.
+
 ## Project Structure
+
+```text
+Smart-ID-Pass/
+│
+├── app.py
+├── requirements.txt
+├── cnn_liveness_model.keras
+├── student_face_database.sqlite
+├── verification_audit.sqlite
+│
+├── templates/
+│   └── *.html
+│
+├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+└── README.md
+```
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/smart-id-pass.git
+cd smart-id-pass
+```
+
+### Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate the Environment
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/macOS:
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+python app.py
+```
+
+## Future Improvements
+- Multi-factor authentication
+- Advanced anti-spoofing techniques
+- Cloud deployment
+- Real-time webcam verification
+- Integration with national identity systems
+
+## Authors
+shahad alanazi 
+rana alashur
+lama alshehri
+lina albdrani
+
+Developed as an Artificial Intelligence project focused on secure identity verification using Computer Vision and Machine Learning technologies.
+
+## License
+This project was developed for educational and academic purposes.
