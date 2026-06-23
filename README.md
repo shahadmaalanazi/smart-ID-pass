@@ -1,7 +1,14 @@
 # Smart ID Verification System
 
 ## Overview
-Smart ID Verification System is an AI-powered web application designed to verify user identities through facial recognition and liveness detection. The system ensures that the presented face belongs to a real person and matches the registered identity stored in the database.
+
+Smart ID Verification System is an AI-powered identity authentication platform designed to enhance security and prevent identity fraud. The system combines Computer Vision and Machine Learning techniques to verify user identities through facial recognition and liveness detection.
+
+Unlike traditional verification systems that rely solely on face matching, this solution performs a multi-layer verification process. It first determines whether the presented face belongs to a real person using a liveness detection model, then compares the captured face against registered identities stored in the database. This approach helps protect the system from spoofing attacks such as printed photos, screenshots, or images displayed on mobile devices.
+
+The project integrates TensorFlow, OpenCV, Flask, and SQLite into a complete web-based application, providing an automated, secure, and user-friendly verification experience. The system is designed to simulate real-world identity verification scenarios used in universities, secure facilities, attendance systems, and access control environments.
+
+By combining AI-driven facial analysis with anti-spoofing mechanisms, Smart ID Verification System delivers a reliable and intelligent authentication solution capable of distinguishing between genuine users and fraudulent attempts.
 
 ## Features
 - Face Detection and Recognition
