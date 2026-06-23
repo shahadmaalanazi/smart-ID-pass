@@ -9,7 +9,7 @@ Unlike traditional verification systems that rely solely on face matching, this 
 The project integrates TensorFlow, OpenCV, Flask, and SQLite into a complete web-based application, providing an automated, secure, and user-friendly verification experience. The system is designed to simulate real-world identity verification scenarios used in universities, secure facilities, attendance systems, and access control environments.
 
 By combining AI-driven facial analysis with anti-spoofing mechanisms, Smart ID Verification System delivers a reliable and intelligent authentication solution capable of distinguishing between genuine users and fraudulent attempts.
-
+   
 ## Features
 - Face Detection and Recognition
 - Liveness Detection (Real vs Fake Face)
