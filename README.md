@@ -12,7 +12,6 @@
 | Rana Alashur | 445008907 | 
 | Lama Alshehri | 445008898 |
 | Lina Albdrani | 445008881 |
-| Hessa Alhuwail | 445008908 |
 
 ---
 
