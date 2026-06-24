@@ -6,13 +6,13 @@
 
 ## 👥 Team
 
-| Name | Student ID | Section |
-|------|-----------|---------|
-| Shahad Alanazi | 445008913 | 61U |
-| Rana Alashur | 445008907 | 64U |
-| Lama Alshehri | 445008898 | 64U |
-| Lina Albdrani | 445008881 | 61U |
-| Hessa Alhuwail | 445008908 | 61U |
+| Name | Student ID | 
+|------|-----------|
+| Shahad Alanazi | 445008913 |
+| Rana Alashur | 445008907 | 
+| Lama Alshehri | 445008898 |
+| Lina Albdrani | 445008881 |
+| Hessa Alhuwail | 445008908 |
 
 ---
 
